@@ -1,0 +1,37 @@
+{
+  "name": "library-management-backend",
+  "version": "1.0.0",
+  "description": "This is the back end of library management project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/israt-emu/Library-management-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/israt-emu/Library-management-backend/issues"
+  },
+  "homepage": "https://github.com/israt-emu/Library-management-backend#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "file-type": "^18.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.13.8",
+    "node-fetch": "^2.6.7",
+    "socket.io": "^4.6.1",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
