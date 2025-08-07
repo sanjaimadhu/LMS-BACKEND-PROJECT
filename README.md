@@ -33,7 +33,7 @@ Live: https://amathlib.netlify.app/
 
 Front-end code: https://github.com/sanjaimadhu/LMS-FRONTEND-PROJECT
 
-Backend code: https://github.com/israt-emu/Library-management-backend
+Backend code: https://github.com/sanjaimadhu/LMS-BACKEND-PROJECT
 
 
 
