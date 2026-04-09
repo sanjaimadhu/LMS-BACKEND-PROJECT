@@ -20,7 +20,7 @@ export const app = express();
 config ({ path: "./config/config.env" });
 
 app.use(cors({
-    origin: "http://localhost:5173",
+   origin: ["http://localhost:5173","https://library-management-system-project-ms.netlify.app"],
     methods:["GET", "POST", "PUT", "DELETE"],
     credentials: true,
 })
