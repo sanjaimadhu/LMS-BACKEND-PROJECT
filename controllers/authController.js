@@ -155,7 +155,7 @@ export const forgotPassword = catchAsyncErrors(async (req, res,next) => {
 const resetToken =  user.getResetPasswordToken();
 await user.save({ validateBeforeSave: false});
 
-const  resetPasswordUrl = `${process.env.FRONTEND_URL}/password/reset/${resetToken}`;
+const  resetPasswordUrl = `https://library-management-system-project-ms.netlify.app/password/reset/${resetToken}`;
 
 const message = generateForgotPasswordEmailTemplate(resetPasswordUrl);
 
