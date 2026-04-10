@@ -44,6 +44,14 @@ app.use("/api/v1/user", userRouter);
 app.use("/api/v1/notification",notificationRouter);
 app.use("/api/v1/payment",paymentRouter);
 
+app.get("/", (req, res) => {
+    res.status(200).json({
+        success: true,
+        message: "Library Management System Server is Running Live! 🚀"
+    });
+});
+
+
 notifyUsers();
 removeUnverifiedAccounts();
 connectDB();
