@@ -8,7 +8,7 @@ WEBSITE LINK 🔗: https://library-management-system-project-ms.netlify.app/
 
 ADMIN ID
 ---
-MAIL: sanjamadhu8220@gmail.com
+MAIL: sanjaimadhu8220@gmail.com
 ---
 PASS: madhu8220@
 
